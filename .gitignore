@@ -1,0 +1,70 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+.vs/Ucorp-Manager/v16/.suo
+
+/.vs/Ucorp
+/Ucorp.Domain/bin/Debug/netstandard2.0
+/Ucorp.Domain/obj
+/Ucorp.API/bin/Debug/netcoreapp3.1
+/Ucorp.API/obj
+/Ucorp.Manager.Domain/obj
+/Ucorp.Shared.Domain/obj
+/Ucorp.Client/bin/Debug/netcoreapp3.1
+/Ucorp.Client/obj
+/Ucorp.Domain/bin/Debug/netcoreapp3.1
+/Ucorp.Domain.Test/bin/Debug/netcoreapp3.1
+/Ucorp.Domain.Test/obj
+/Ucorp.Manager/bin/Debug/netcoreapp3.1
+/Ucorp.Manager/obj
+/Ucorp.Manager.Test/bin/Debug/netcoreapp3.1
+/Ucorp.Manager.Test/obj
+/Ucorp.API/site
+/Ucorp.API/bin/Release/netcoreapp3.1
+/Ucorp.Domain/bin/Release/netcoreapp3.1
+/Ucorp.Manager/bin/Release/netcoreapp3.1
+/Ucorp.Web/bin/Debug/netcoreapp3.1
+/Ucorp.Web/obj
+/Ucorp.Identity/bin/Debug/netcoreapp3.1
+/Ucorp.Identity/obj
+/Ucorp.Manager.API/bin/Debug/netcoreapp3.1
+/Ucorp.Manager.API/obj
+/Ucorp.API/Properties/PublishProfiles
+/Ucorp.Web/Properties/PublishProfiles/ucorp-web-dev - Web Deploy.pubxml

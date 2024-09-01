@@ -1,0 +1,15 @@
+@Transactions_API_HostAddress = http://localhost:5186
+
+# Requisição POST para criar uma transação
+POST {{Transactions_API_HostAddress}}/transactions
+Content-Type: application/json
+Accept: application/json
+
+{
+    "date": "2024-08-29T00:00:00Z",
+    "total": 100.50,
+    "type": "Credit",
+    "description": "Payment for services rendered"
+}
+
+###
